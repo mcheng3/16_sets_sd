@@ -1,7 +1,7 @@
 A = [1, 2, 3]
 B = [2, 3, 4]
 print 'A: ' + str(A)
-print 'B: ' + str(B) +'\n'
+print 'B: ' + str(B) + '\n'
 
 def union(n, m):
     return [i for i in n if i not in m] + m
