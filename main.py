@@ -5,8 +5,8 @@ print 'B: ' + str(B) + '\n'
 
 def union(n, m):
     return [i for i in n if i not in m] + m
-print 'A U B: ' + str(union(A, B)
-)
+print 'A U B: ' + str(union(A, B))
+
 def intersection(n, m):
     return [i for i in n if i in m]
 print 'intersection : ' + str(intersection(A, B))
